@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<met:KNIMEMetaInfo xmlns:met="http://www.knime.org/2.9/metainfo">
+  <met:element form="text" name="Author">&lt;unknown></met:element>
+  <met:element form="date" name="Creation Date">1/0/1970/1:0:0 +01:00</met:element>
+  <met:element form="multiline" name="Comments">Looping over all columns and manipulation of each
+
+The workflow iterates over all numeric columns and negates the values in the column. The loop takes one column at a time, renames the column name to ANONYMOUS_COLUMN in the first rename node, changes the value in the math formula nodes and reverts the name to the original column name.</met:element>
+  <met:element form="text" name="Last Uploaded" read-only="true">2018-01-20 11:23:25 +0100</met:element>
+  <met:element form="text" name="Last Edited" read-only="true">2016-03-22 18:19:49 +0100</met:element>
+</met:KNIMEMetaInfo>
